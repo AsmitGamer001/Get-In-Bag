@@ -20,6 +20,7 @@ def index(request):
         allprods.append([prod , range(1,noslides),noslides])
     # allprods = [[product , range(1,noslides) , noslides] , [product , range(1,noslides) , noslides]]
     params = {'allprods':allprods}
+    #aaaasudgyjyjg
 
     return render(request, 'shop/index.html', params)
 
