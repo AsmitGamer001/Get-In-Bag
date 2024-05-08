@@ -22,7 +22,7 @@ def index(request):
     params = {'allprods':allprods}
     return render(request, 'shop/index.html', params)
 
-
+#1234
 def about(request):
     return render(request, 'shop/about.html')
 
