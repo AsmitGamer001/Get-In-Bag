@@ -21,7 +21,7 @@ def index(request):
     # allprods = [[product , range(1,noslides) , noslides] , [product , range(1,noslides) , noslides]]
     params = {'allprods':allprods}
     return render(request, 'shop/index.html', params)
-#abcd
+
 
 def about(request):
     return render(request, 'shop/about.html')
